@@ -1,0 +1,16 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location: https://github.com/agocorona/transient/archive/73305893636b7bbc201a37c2ff0dee30a2966bef.zip
+- location: https://github.com/agocorona/transient-universe/archive/9a613811643f542a9eead2d0910162fd51386d29.zip
+- location: https://github.com/agocorona/ghcjs-hplay/archive/f8f718d2442f73bd4d8fbfa0df660071a53d041b.zip
+extra-deps:
+- ghcjs-perch-0.3.3
+resolver: lts-6.5
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.0.20160414_ghc-7.10.3:
+         url: https://s3.amazonaws.com/ghcjs/ghcjs-0.2.0.20160414_ghc-7.10.3.tar.gz
+         sha1: 6d6f307503be9e94e0c96ef1308c7cf224d06be3
